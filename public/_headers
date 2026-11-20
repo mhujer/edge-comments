@@ -1,0 +1,6 @@
+/*
+  Strict-Transport-Security: max-age=31536000
+/widget.js
+  Cache-Control: max-age=300
+  X-Content-Type-Options: nosniff
+  Cross-Origin-Resource-Policy: cross-origin

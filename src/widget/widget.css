@@ -1,0 +1,317 @@
+.edge-comments-widget {
+  font-family: var(--edge-comments-font, system-ui, sans-serif);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+.edge-comments-widget[aria-busy='true']::before {
+  content: '';
+  display: block;
+  inline-size: 5rem;
+  block-size: 0.5rem;
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, currentColor 12%, transparent);
+}
+
+.edge-comments-count {
+  margin: 0 0 0.75rem;
+  font-size: 1.15em;
+}
+
+.edge-comments-thread {
+  margin-block: 0.75rem;
+  padding: 0.25rem 0.75rem 0.625rem;
+  border: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, currentColor 2%, transparent);
+}
+
+.edge-comments-comment {
+  padding-block: 0.5rem 0.125rem;
+}
+
+.edge-comments-replies {
+  margin-inline-start: 1.5rem;
+  padding-inline-start: 0.5rem;
+  border-inline-start: 2px solid
+    color-mix(in srgb, currentColor 10%, transparent);
+}
+
+.edge-comments-depth-2 > .edge-comments-replies {
+  margin-inline-start: 1.1rem;
+}
+
+.edge-comments-replies > .edge-comments-node > .edge-comments-comment {
+  margin-block-start: 0.375rem;
+  border-block-start: 1px solid color-mix(in srgb, currentColor 8%, transparent);
+}
+
+.edge-comments-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.375em;
+  overflow-wrap: anywhere;
+}
+
+.edge-comments-name {
+  font-weight: 600;
+}
+
+.edge-comments-meta time,
+.edge-comments-removed {
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
+.edge-comments-removed {
+  margin: 0;
+  font-style: italic;
+}
+
+.edge-comments-reference {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: 0.8em;
+  color: var(--edge-comments-accent, #0b62c4);
+  cursor: pointer;
+}
+
+.edge-comments-reference:hover,
+.edge-comments-reference:focus-visible {
+  text-decoration: underline;
+}
+
+.edge-comments-highlighted {
+  outline: 2px solid var(--edge-comments-accent, #0b62c4);
+  outline-offset: 0.125rem;
+  border-radius: 0.125rem;
+}
+
+.edge-comments-body {
+  overflow-wrap: anywhere;
+}
+
+.edge-comments-body p {
+  margin: 0.35em 0;
+}
+
+.edge-comments-body a {
+  color: var(--edge-comments-accent, #0b62c4);
+}
+
+.edge-comments-body pre {
+  margin: 0.5em 0;
+  padding: 0.5em 0.65em;
+  overflow-x: auto;
+  overflow-wrap: normal;
+  border-radius: 0.25rem;
+  background: color-mix(in srgb, currentColor 7%, transparent);
+}
+
+.edge-comments-body code {
+  font-family: var(
+    --edge-comments-font-mono,
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    monospace
+  );
+  font-size: 0.9em;
+}
+
+.edge-comments-body :not(pre) > code {
+  padding: 0.05em 0.3em;
+  border-radius: 0.1875rem;
+  background: color-mix(in srgb, currentColor 9%, transparent);
+}
+
+.edge-comments-body blockquote {
+  margin: 0.5em 0;
+  padding: 0.1em 0.8em;
+  border-inline-start: 3px solid
+    color-mix(in srgb, currentColor 25%, transparent);
+}
+
+.edge-comments-reply,
+.edge-comments-cancel {
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: none;
+  font: inherit;
+  font-variant: small-caps;
+  cursor: pointer;
+}
+
+.edge-comments-reply {
+  margin-block-start: 0.15rem;
+  font-size: 0.82em;
+  opacity: 0.55;
+}
+
+.edge-comments-comment:hover .edge-comments-reply,
+.edge-comments-reply:focus-visible {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .edge-comments-reply {
+    opacity: 1;
+  }
+}
+
+.edge-comments-pending {
+  margin-block: 0.4rem;
+  padding: 0.5rem;
+  border: 1px dashed #af7b20;
+  border-radius: 0.375rem;
+  background: color-mix(in srgb, #cf930f 10%, transparent);
+}
+
+.edge-comments-replies > .edge-comments-node > .edge-comments-pending {
+  border-block-start: 1px dashed #af7b20;
+}
+
+.edge-comments-pending-badge {
+  display: inline-block;
+  margin-block: 0.25rem;
+  padding: 0.05rem 0.35rem;
+  border-radius: 0.2rem;
+  background: color-mix(in srgb, #cf930f 25%, transparent);
+  font-size: 0.8em;
+}
+
+.edge-comments-pending-note {
+  margin: 0;
+  font-size: 0.8em;
+  opacity: 0.75;
+}
+
+.edge-comments-form {
+  display: grid;
+  gap: 0.55rem;
+  padding: 0.7rem;
+  min-inline-size: 0;
+  border: 1px solid color-mix(in srgb, currentColor 15%, transparent);
+  border-radius: 0.45rem;
+  background: color-mix(in srgb, currentColor 3%, transparent);
+}
+
+.edge-comments-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+  gap: 0.55rem;
+}
+
+.edge-comments-form label {
+  display: grid;
+  gap: 0.15rem;
+  min-inline-size: 0;
+  font-size: 0.9em;
+}
+
+.edge-comments-form input,
+.edge-comments-form textarea {
+  box-sizing: border-box;
+  inline-size: 100%;
+  min-inline-size: 0;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 0.25rem;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+}
+
+.edge-comments-form textarea {
+  resize: vertical;
+}
+
+.edge-comments-modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.edge-comments-modes button {
+  padding: 0.2rem 0.55rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: inherit;
+  background: none;
+  font: inherit;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.edge-comments-modes button[aria-pressed='true'] {
+  border-color: color-mix(in srgb, currentColor 25%, transparent);
+  background: color-mix(in srgb, currentColor 7%, transparent);
+}
+
+.edge-comments-hint {
+  margin: 0.25rem 0 0;
+  font-size: 0.8em;
+  overflow-wrap: anywhere;
+}
+
+.edge-comments-preview {
+  min-inline-size: 0;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 0.25rem;
+}
+
+.edge-comments-preview-status {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.edge-comments-post {
+  justify-self: start;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--edge-comments-accent, #0b62c4);
+  border-radius: 0.3rem;
+  background: var(--edge-comments-accent, #0b62c4);
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.edge-comments-post:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.edge-comments-turnstile:empty {
+  display: none;
+}
+
+.edge-comments-error {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.edge-comments-reply-form {
+  margin-block: 0.4rem;
+}
+
+.edge-comments-depth-1 > .edge-comments-reply-form {
+  margin-inline-start: 2rem;
+}
+
+.edge-comments-depth-2 > .edge-comments-reply-form {
+  margin-inline-start: 1.6rem;
+}
+
+.edge-comments-reply-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.3rem;
+  font-size: 0.9em;
+}

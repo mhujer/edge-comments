@@ -1,0 +1,9 @@
+# Local values only.
+ADMIN_AUTH_BYPASS=1
+ACCESS_TEAM_DOMAIN=your-team.cloudflareaccess.com
+ACCESS_AUD=local-placeholder
+ADMIN_EMAIL=admin@example.com
+EMAIL_FROM=edge-comments@example.com
+CUSTOM_DOMAIN=comments.example.com
+TURNSTILE_SITE_KEY=1x00000000000000000000AA
+TURNSTILE_SECRET=1x0000000000000000000000000000000AA

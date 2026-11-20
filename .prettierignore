@@ -1,0 +1,9 @@
+node_modules
+.wrangler
+tmp
+.scratch
+public/widget.js
+migrations
+package-lock.json
+test-results
+playwright-report

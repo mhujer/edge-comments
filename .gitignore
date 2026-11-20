@@ -1,0 +1,13 @@
+.env
+.dev.vars
+.wrangler/
+node_modules/
+.idea/
+tmp/
+wrangler.jsonc
+backups/
+public/widget.js
+public/widget.css
+test-results/
+playwright-report/
+.scratch/

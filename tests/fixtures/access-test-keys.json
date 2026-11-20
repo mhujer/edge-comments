@@ -1,0 +1,22 @@
+{
+  "privateKey": {
+    "kty": "RSA",
+    "n": "v3DEnDqkXe0F5NMCRipGtJpzBpVaWlVzIX-URznyJS2-55EsFL-3MB6PN-EW7rub1K-4SLidtyOLnsDUCj7eT3pA4md4-pv5y3x2daKENYM35DJeMi1FWZ3gtvh2ur2betvyeVp50jvAR-NYo6pdAisMF-f9cvYvRQ0UgPMRjI3WxmB0Si3QClkVwiysQe3lRK-z9lExJmYtepnPIfwRt8irQjrIjKKH-XhcxxC-jInoRSIbOMZDcOrAyDeJt2rMIw2fAu4i8eI4pqZhKeNaFOsXAqcUzUFv-9Aw0en7RKdRV3598sJh5cyuGDSmJ1uGgy5oupPSL4_LKgsNUdpfgQ",
+    "e": "AQAB",
+    "d": "BiKSxm_xqwnoxbHGcaGytOB7PbOFGv6Ai0sHoTW37x2Vb93c5AhV0k60Z8XIopt0Db-Y4Am8ki0rMQn8cZycqr7f-_F1dNCRU4ZYVIJCCuX64U8E6kY9ofbXh_2T7n2bkTchwOZXn5dnHNaqFUqlIufmwhBe9LNzhdq6tLw1bIPj9OauzLJCfWhwb2a6zIGkFpnFGcExgILkoH4OXCreM7G62HJLasCc5zN6gJ2oeoitI46iPYc55aFDiE2KwWF11UTpTv4jJZE7O6bhJAhWian86GpehI4ZHa5IC3-hQFMq9HByK3eHK-LI9st6Sy_fm5pmh5cuURBXPUaHXC5LwQ",
+    "p": "3qJwwkZ3RyIERUQBsBhwDDhnqJTj9Y6uOcIEI1-Zzjkvf-oKlnMvjzgs174iTnyyKklFx_82D9NscALINuo3X3gtOHDGl20pRn6v8zsWX8leMh6P1-im5-nICIeWU8leNZARsrCA6WdRO_PkkSeMSG5y0MUmDOqUyeWGwG7XcbE",
+    "q": "3CGK3h9_LIZXFqj-A3oo6MXYnLtQvXjko3CWDfnBUtCMH0lM8q4mzUNOLSvFvs9f141lFIXmsR5nOl2i4DvxPhPTIrhfqJB4H-je5j_MokpEc7pHdB5Vw7tw_Gf8WbDOJenPY9CpD38Ba-psC4heAEFIXFMymqthLEfd17mE7tE",
+    "dp": "XjDdgeQsLKUgp2lpSWZdaV4nxPQRKd_OqFMESy70NIKPLRAIoLRk57P9jN09SHWLL0bGxiGcbr-lPhJ_QHSBLtv6Tcmwy3n8n32T1VUnVykruAqkEtW0X6PR5IHwwMwOFp04T6BLOfRjMvkxt5PCzxYjb14phgdtIaoBA8MhVVE",
+    "dq": "OrJK-A2H-JRdtnIbQUwaim7u4mPkFJGezaHgsRtOnEl1g4YlGXSsbgErYEoSsV1UXgKa2E0YBVRpDBwZqRbyra3Vl6V4BFd5YHDUtqp-YyvQctdR5DmOfuGFMBh-JmBJp7xfi2sBGVuxQlhAtRaIkiLWK6AXlzxpbcg_9BzIwHE",
+    "qi": "M2KzKEZuDcsch_MuHOxDp5za5puCuWi5K0KChEzB60S6sbq7XyxTyXEsOZpaj5YTqkBbBIP1NdSsIovzsvyHV6Km5YGJuzMsQrnT3xHBNqM1c2ThQySsj7dTpRY_MpcoXwYWo92_-gcl0OFVMzfM0M1J-e84c_JPO2Qso-snsLY",
+    "alg": "RS256",
+    "kid": "edge-comments-access-test"
+  },
+  "publicKey": {
+    "kty": "RSA",
+    "n": "v3DEnDqkXe0F5NMCRipGtJpzBpVaWlVzIX-URznyJS2-55EsFL-3MB6PN-EW7rub1K-4SLidtyOLnsDUCj7eT3pA4md4-pv5y3x2daKENYM35DJeMi1FWZ3gtvh2ur2betvyeVp50jvAR-NYo6pdAisMF-f9cvYvRQ0UgPMRjI3WxmB0Si3QClkVwiysQe3lRK-z9lExJmYtepnPIfwRt8irQjrIjKKH-XhcxxC-jInoRSIbOMZDcOrAyDeJt2rMIw2fAu4i8eI4pqZhKeNaFOsXAqcUzUFv-9Aw0en7RKdRV3598sJh5cyuGDSmJ1uGgy5oupPSL4_LKgsNUdpfgQ",
+    "e": "AQAB",
+    "alg": "RS256",
+    "kid": "edge-comments-access-test"
+  }
+}

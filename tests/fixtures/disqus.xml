@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disqus xmlns="http://disqus.com" xmlns:dsq="http://disqus.com/disqus-internals">
+  <thread dsq:id="main"><id/><link>https://blog.example/notes/?tracking=x</link><title>Legacy Notes</title></thread>
+  <thread dsq:id="duplicate"><id>duplicate-identifier</id><link>https://blog.example/notes/index.html</link><title>Other Notes</title></thread>
+  <thread dsq:id="proxy"><link>https://proxy.example/notes/</link><title>Proxy</title></thread>
+  <thread dsq:id="localhost"><link>http://localhost:8080/notes/</link><title>Local</title></thread>
+  <thread dsq:id="removed"><link>https://blog.example/removed/</link><title>The old Page &amp; its notes</title></thread>
+  <thread dsq:id="empty"><link>https://blog.example/empty/</link><title>Empty</title></thread>
+  <thread dsq:id="spam-only"><link>https://blog.example/spam/</link><title>Spam</title></thread>
+  <thread dsq:id="foreign-empty"><link>https://other.example/empty/</link><title>Foreign</title></thread>
+  <post dsq:id="reply-5"><message><![CDATA[<a href="https://example.com/expanded-target">https://example.com/exp...</a>]]></message><createdAt>2020-01-01T12:00:05Z</createdAt><isDeleted>false</isDeleted><isSpam>false</isSpam><author><name>Nico Drift</name></author><thread dsq:id="main"/><parent dsq:id="reply-4"/></post>
+  <post dsq:id="reply-4"><message><![CDATA[<code>const n = 1</code>]]></message><createdAt>2020-01-01T12:00:04Z</createdAt><isDeleted>false</isDeleted><isSpam>false</isSpam><author><name>Iona Vale</name></author><thread dsq:id="main"/><parent dsq:id="reply-3"/></post>
+  <post dsq:id="reply-3"><message><![CDATA[<pre>one<br>two</pre>]]></message><createdAt>2020-01-01T12:00:03Z</createdAt><isDeleted>false</isDeleted><isSpam>false</isSpam><author><name>Iona Vale</name></author><thread dsq:id="main"/><parent dsq:id="reply-2"/></post>
+  <post dsq:id="reply-2"><message><![CDATA[<p>Second<br>line</p>]]></message><createdAt>2020-01-01T12:00:02Z</createdAt><isDeleted>false</isDeleted><isSpam>false</isSpam><author><name>Rune Day</name></author><thread dsq:id="main"/><parent dsq:id="reply-1"/></post>
+  <post dsq:id="reply-1"><message><![CDATA[<p>First reply</p>]]></message><createdAt>2020-01-01T12:00:01Z</createdAt><isDeleted>false</isDeleted><isSpam>false</isSpam><author><name>Rune Day</name></author><thread dsq:id="main"/><parent dsq:id="spam-parent"/></post>
+  <post dsq:id="spam-parent"><message><![CDATA[<p>Hidden original body</p>]]></message><createdAt>2020-01-01T12:00:00Z</createdAt><isDeleted>false</isDeleted><isSpam>true</isSpam><author><name/></author><thread dsq:id="main"/></post>
+  <post dsq:id="duplicate-post"><message><![CDATA[<p>It's another Comment; hello!</p>]]></message><createdAt>2020-01-01T13:00:00Z</createdAt><isDeleted>false</isDeleted><isSpam>false</isSpam><author><name>Briar Reed</name></author><thread dsq:id="duplicate"/></post>
+  <post dsq:id="proxy-post"><message>Proxy Comment</message><createdAt>2020-01-01T13:00:01Z</createdAt><isDeleted>false</isDeleted><isSpam>false</isSpam><author><name>Briar Reed</name></author><thread dsq:id="proxy"/></post>
+  <post dsq:id="localhost-post"><message>Local Comment</message><createdAt>2020-01-01T13:00:02Z</createdAt><isDeleted>false</isDeleted><isSpam>false</isSpam><author><name>Briar Reed</name></author><thread dsq:id="localhost"/></post>
+  <post dsq:id="removed-post"><message>Archived Comment</message><createdAt>2020-01-01T13:00:03Z</createdAt><isDeleted>false</isDeleted><isSpam>false</isSpam><author><name> </name></author><thread dsq:id="removed"/></post>
+  <post dsq:id="deleted-leaf"><message>Deleted Comment</message><createdAt>2020-01-01T13:00:04Z</createdAt><isDeleted>true</isDeleted><isSpam>false</isSpam><author><name>Briar Reed</name></author><thread dsq:id="main"/><parent dsq:id="reply-1"/></post>
+  <post dsq:id="spam-leaf"><message>Spam Comment</message><createdAt>2020-01-01T13:00:05Z</createdAt><isDeleted>false</isDeleted><isSpam>true</isSpam><author><name>Briar Reed</name></author><thread dsq:id="spam-only"/></post>
+</disqus>
